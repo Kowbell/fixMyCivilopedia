@@ -1,4 +1,4 @@
-# civilipediaVI
+# Fix My Civilopedia
 This is a mod revamps the Civilopedia in Sid Meier's Civilization VI, so that we have a more complete documentation of the game.  
 
 
@@ -9,10 +9,13 @@ People who help out by sending a pull request will be added in the Acknowledgeme
 
 ###Particular Areas of improvement
 Here is a list of areas that are significantly lacking so far and should be edited.
-  *
-  *
-  *
-  *
+  * Apostles and details of their promotions.
+  * Flanking / Support in combat
+  * Spearman Vs. Calvary
+  *  
+  *  
+  *  
+  *  
 
 
 ###Other Things
