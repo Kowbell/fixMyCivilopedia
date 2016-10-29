@@ -7,10 +7,19 @@ People who help out by sending a pull request will be added in the Acknowledgeme
  Just leave either your Reddit name, or your steam name if you'd like to be added to it!
 
 
+##Particular Areas of improvement
+Here is a list of areas that are significantly lacking so far and should be edited.
+  *
+  *
+  *
+  *
 
 
-
-
+###Other Things
+You can contact me (SupahAmbition) on
+  Discord @SupahAmbition#5071
+  Reddit @ u/SupahAmbition
+  email @ tylerbeverley@gmail.com
 
 
 
