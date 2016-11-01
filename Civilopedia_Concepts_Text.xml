@@ -519,14 +519,18 @@
 			<Text>Pantheons</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_3_CHAPTER_CONTENT_PARA_1">
-			<Text>Once you accumulate enough [ICON_Faith] Faith, you’ll be prompted to found a Pantheon, a precursor to the full-blown Religions to be founded later. Choosing which Pantheon to found depends on your short- and long-term goals for your civilization. After earning a Pantheon, you are well on your way to establishing your Religion. Unlike a full Religion, a Pantheon you choose will be unique to your civilization, and cannot spread outside your borders, or be displaced. </Text>
+			<Text>Once you accumulate enough [ICON_Faith] Faith, you’ll be prompted to found a Pantheon, a precursor fonding a Religion. Choosing which Pantheon to found depends on your short- and long-term goals for your civilization. After earning a Pantheon, you are well on your way to establishing your Religion. Unlike a full Religion, a Pantheon you choose will be unique to your civilization, and cannot spread outside your borders, and you cities will always have your pantheon even though . </Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_TITLE">
 			<Text>Great Prophets</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_PARA_1">
-			<Text>You may found your Religion once you have earned (or purchased) a [ICON_GreatProphet] Great Prophet. Religious buildings will accumulate the [ICON_GreatProphet] Great Prophet points necessary to bring this special unit to your civilization. After the [ICON_GreatProphet] Great Prophet has been earned, send the unit to your Holy Site, and then found your Religion. [ICON_GreatProphet] Great Prophets may also be earned from Stonehenge.</Text>
+			<Text>Great Prophets [ICON_GreatProphet] are used to found religions. To recruit a Great Prophet then you need to accumulate Great Prophet Points. You can see how many great Prophet points you have in the Great People overview. There are only a limited number of great phrophets available in the game, so you want to make sure you get your great Phrophet before you opponent does. </Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_PARA_2">
+			<Text> There are several ways you can earn Great Phrophet [ICON_GreatProphet] Points.	1. Building a Holy Site, Shrine, and Temple, all of which produce 1 Great Prophet Points per turn. 2. Building the wonder Stonehedge, which produces a Great Prophet immediately after completeion. 3. Using the "Revelation" policy card, that gives you 2 Great Prophet Points per Turn.</Text>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_PARA_3">
+			<Text> On Standard speed and In the Ancient era Great Prophets are earned at 60 Great People points total. And then increases to 120 in the Medieval Era. If Saladin of Arabia Civ is in your game, watch out! They will get the last Phrophet in the game (even if you kill them off!).  </Text>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_TITLE">
 			<Text>Founding Your Religion</Text>
 		</Row>
