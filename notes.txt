@@ -34,3 +34,12 @@ how to get visiblity
 		"Delegate" BOOLEAN NOT NULL CHECK (Delegate IN (0,1)) DEFAULT 0,
 		"Ally" BOOLEAN NOT NULL CHECK (Ally IN (0,1)) DEFAULT 0,
 		"Spy" BOOLEAN NOT NULL CHECK (Spy IN (0,1)) DEFAULT 0,
+
+
+
+TECH TREE/ CIVIC TREE
+http://well-of-souls.com/civ/images/civ6_tech_tree1.jpg
+http://well-of-souls.com/civ/images/civ6_civics_tree1.jpg
+
+Apostles Promotions
+http://civilization.wikia.com/wiki/Apostle_(Civ6)
