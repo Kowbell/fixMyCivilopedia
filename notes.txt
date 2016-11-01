@@ -1,35 +1,35 @@
 
-Code that determines the flacking bonus --found in global params file. 
+Code that determines the flacking bonus --found in global params file.
 		<Row Name="COMBAT_FLANKING_BONUS_MODIFIER" Value="2" />
 
 
-code the determines how much units heal 
+code the determines how much units heal
 		<Row Name="COMBAT_HEAL_CITY_GARRISON" Value="20" />
-		
+
 		<Row Name="COMBAT_HEAL_CITY_OUTER_DEFENSES" Value="10" />
-		
+
 		<Row Name="COMBAT_HEAL_LAND_ENEMY" Value="5" />
-		
+
 		<Row Name="COMBAT_HEAL_LAND_FRIENDLY" Value="15" />
-		
+
 		<Row Name="COMBAT_HEAL_LAND_NEUTRAL" Value="10" />
-		
+
 		<Row Name="COMBAT_HEAL_NAVAL_ENEMY" Value="0" />
-		
+
 		<Row Name="COMBAT_HEAL_NAVAL_FRIENDLY" Value="20" />
-		
+
 		<Row Name="COMBAT_HEAL_NAVAL_NEUTRAL" Value="0" />
 
 
 Lose ammendites as era's progress?
 	<Row Name="LUXURY_HAPPINESS_LOSS_PER_ERA" Value="2" />
 
-How much population you need per district. 
+How much population you need per district.
 	<Row Name="DISTRICT_POPULATION_REQUIRED_PER" Value="3" />
 
-some civs have exclusive agenedas 
-	
-how to get visiblity 
+some civs have exclusive agenedas
+
+how to get visiblity
 		"Trader" BOOLEAN NOT NULL CHECK (Trader IN (0,1)) DEFAULT 0,
 		"Delegate" BOOLEAN NOT NULL CHECK (Delegate IN (0,1)) DEFAULT 0,
 		"Ally" BOOLEAN NOT NULL CHECK (Ally IN (0,1)) DEFAULT 0,
@@ -43,3 +43,7 @@ http://well-of-souls.com/civ/images/civ6_civics_tree1.jpg
 
 Apostles Promotions
 http://civilization.wikia.com/wiki/Apostle_(Civ6)
+
+
+
+[NEWLINE][NEWLINE] <---- CREATES A NEWLINE????

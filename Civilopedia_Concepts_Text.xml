@@ -6,7 +6,7 @@
 			<Text>Introduction</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_INTRO_CHAPTER_INTRO_PARA_1">
-			<Text>Welcome to the Civilopedia for Sid Meier's Civilization VI! Here you will find detailed descriptions of all aspects of the game. Clicking on the tabs on the top edge of the screen will take you to the various major sections of the Civilopedia. The Navigation Bar on the left side of the screen will display the various entries within a section. Click on an entry to go directly there.</Text>
+			<Text>Welcome to u/SupahAmbition's revamped Civilopedia for Sid Meier's Civilization VI! Here you will find detailed descriptions of all aspects of the game. Clicking on the tabs on the top edge of the screen will take you to the various major sections of the Civilopedia. The Navigation Bar on the left side of the screen will display the various entries within a section. Click on an entry to go directly there.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_CITIES_NAME">
 			<Text>Cities</Text>
@@ -36,7 +36,7 @@
 			<Text>Growth</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_1">
-			<Text>Your city will grow, or add more [ICON_Citizen] Citizens, with surplus [ICON_Food] Food. Any amount of [ICON_Food] Food over the total consumption of a city's [ICON_Citizen] Citizens, 2 per, is considered surplus, and is added as progress towards a new [ICON_Citizen] Citizen.</Text>
+			<Text>Your city will grow, or add more [ICON_Citizen] Citizens, with surplus [ICON_Food] Food. Any amount of [ICON_Food] Food over the total consumption of a city's [ICON_Citizen] Citizens (each Citizen consume 2 food), is considered surplus, and is added as progress towards a new [ICON_Citizen] Citizen.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_2">
 			<Text>A city will add all surplus [ICON_Food] Food towards growth if its current [ICON_Citizen] Population is 2 or more below the city's [ICON_Housing] Housing limit. If the city is 1 [ICON_Citizen] Population below its [ICON_Housing] Housing limit, its growth will slow to 50%. When the [ICON_Citizen] Population is at the [ICON_Housing] Housing limit, it will grow only at 75% the normal rate. A city can grow to 5 [ICON_Citizen] Citizens over its [ICON_Housing] Housing limit at this rate, and then it will stop growing entirely.</Text>
@@ -44,7 +44,10 @@
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_3">
 			<Text>A city will stagnate and not grow if it does not have surplus [ICON_Food] Food. If it makes less [ICON_Food] Food than its [ICON_Citizen] Citizens consume, the city will starve and slowly lose [ICON_Citizen] Population until it is able to support itself again.</Text>
 		</Row>
-		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_TITLE">
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_12_CHAPTER_CONTENT_PARA_4">
+			<Text> You also need to have ammeties for you citizens. 1 Ammetiy for every 2 citizens. If you do not have enough Amenities in your cities, you will suffer a decrease in Growth, but if you have more Amenities than your cities requires you will have a bonus appiled to your city's growth. (?WHAT IS THE BONUS %?)</Text>
+		</Row>
+		<Row Tag = "LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_TITLE">
 			<Text>Food</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_13_CHAPTER_CONTENT_PARA_1">
@@ -72,7 +75,7 @@
 			<Text>Placing your city near a water source should be one of your first decisions in any game. The presence of a good water source will immediately set the initial [ICON_Housing] Housing level of a city. A city not adjacent to any water will have a max [ICON_Citizen] Population of 2 at the start. A city on the coast will have a max [ICON_Citizen] Population of 3. And a city adjacent to a River, Lake, or Oasis will have a max [ICON_Citizen] Population of 5.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_15_CHAPTER_CONTENT_PARA_2">
-			<Text>The fresh water status of a city may be upgraded by adding an Aqueduct tile next to the City Center. Aqueducts may only be placed in tiles that are adjacent to a River, Lake, or Mountain that is also adjacent to the City Center.  Completion of the Aqueduct district raises the city’s [ICON_Housing] Housing from water by 2 or up to 6, whichever is larger—so 7 if adjacent to River, Lake or Oasis, or 6 otherwise.</Text>
+			<Text>The fresh water status of a city may be upgraded by adding an Aqueduct tile next to the City Center. Aqueducts may only be placed in tiles that are adjacent to a River, Lake, or Mountain that is also adjacent to the City Center. The Aquaduct provides your city with the fresh water bonus to housing, if that city doesn't already have a source of Fresh water. So an Aquaduct built in a city with no fresh water will give you a 6 housing bonus, and an Aquaduct built in a city that already has a source of fresh water will provide 2 extra housing.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_10_CHAPTER_CONTENT_TITLE">
 			<Text>Districts</Text>
@@ -90,7 +93,7 @@
 			<Text>Neighborhoods and Appeal</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_1">
-			<Text>Neighborhoods are a special district that allows a city to house more [ICON_Citizen] Population and is affected by Appeal. The term “Appeal” is used to describe a special form of adjacency bonus that just applies to Neighborhoods, and also will affect Culture Victory’s [ICON_Tourism] Tourism system through National Parks and Seaside Resorts.</Text>
+			<Text>Neighborhoods are a special district that allows a city to house more [ICON_Citizen] Population and is affected by Appeal. The term “Appeal” is used to describe a special form of adjacency bonus that is affect by surronding tiles. For example a wonder would increase a tile's appeal, and a coal mine would decreas a tile's appeal. </Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_2">
 			<Text>Breathtaking Neighborhoods provide 6 [ICON_Housing] Housing.</Text>
@@ -106,9 +109,6 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_6">
 			<Text>Disgusting Neighborhoods provide 2 [ICON_Housing] Housing.</Text>
-		</Row>
-		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_7">
-			<Text>Finally, Appeal also affects the ability to place National Parks and Seaside Resorts.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_8">
 			<Text>A tile's Appeal can be viewed in its tooltip and is affected by the following:</Text>
@@ -134,6 +134,25 @@
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_15">
 			<Text>-1: Each adjacent pillaged tile</Text>
 		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_16">
+			<Text>Seaside resorts are a type of improvement that is affect by a tile's appeal. A tile needs to have atleast an appeal rating of charming or better and be on the coast in order to build a seaside resort. The seaside resort produces ___(?) foreign tourism that can be used for a cultural victory. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_17">
+			<Text>National Parks are another improvement that is dependent on appeal. National Parks provides tourism equal to the total appeal of all the tiles included in the park. The national park can be built with the "Naturalist Unit", that is made available with the Conservation Civic in the Modern Era. To build a National Park with your Naturalist you must meet the following requirements:  </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_18">
+			<Text>The tiles must be Natural Wonders, Mountains, or a tile with an Appeal of Charming or better. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_19">
+			<Text>All four of the tiles must be owned by the same city. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_20">
+			<Text>The tiles must form an upright diamond shape. </Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_11_CHAPTER_CONTENT_PARA_21">
+			<Text>No tile can have an improvement or a district on it.(? WONDERS?) </Text>
+		</Row>
+
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_5_CHAPTER_CONTENT_TITLE">
 			<Text>Buildings</Text>
 		</Row>
@@ -177,7 +196,7 @@
 			<Text>Specialists</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_CITIES_9_CHAPTER_CONTENT_PARA_1">
-			<Text>Specialists are alternative assignments for [ICON_Citizen] Citizens, which involve working a district tile instead of a normal tile. As a general rule, specialists are a good way to get yields otherwise hard to find on normal tiles, but the city needs a solid support base of [ICON_Food] Food to support them in the long term. Specialists are also particularly useful when a city grows large later in the game, and has more [ICON_Citizen] Population than there are normal tiles to work. There are different types of specialists, each with different effects. All specialist types except the generic [ICON_Citizen] Citizen have a limit on how many assignments there can be in a city. This limit is determined by the number of buildings in the district associated with that specialist type.</Text>
+			(? CONFIRM THIS?)<Text>Specialists are alternative assignments for [ICON_Citizen] Citizens, which involve working a district tile instead of a normal tile. As a general rule, specialists are a good way to get yields otherwise hard to find on normal tiles, but the city needs a solid support base of [ICON_Food] Food to support them in the long term. Specialists are also particularly useful when a city grows large later in the game, and has more [ICON_Citizen] Population than there are normal tiles to work. There are different types of specialists, each with different effects. All specialist types except the generic [ICON_Citizen] Citizen have a limit on how many assignments there can be in a city. This limit is determined by the number of buildings in the district associated with that specialist type.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGEGROUP_WORLD_NAME">
 			<Text>The World</Text>
@@ -199,19 +218,19 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_2">
 			<Text>Bonus resources can increase the [ICON_Food] Food, [ICON_Gold] Gold, or [ICON_Production] Production output of a hex. Bonus resources cannot be traded to other civilizations. These resources can be "harvested" by Builders to remove the resource and provide an immediate, one-time sum of [ICON_Food] Food or [ICON_Production] Production to the city that owns the hex.</Text>
-		</Row>
+		</Row> (?LIST OF BONUS RESOURCES?)
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_3">
 			<Text>Luxury resources increase your civilization's happiness by providing [ICON_Amenities] Amenities and provide a small bonus to the hex's yield output. Only one source of a specific Luxury resource provides [ICON_Amenities] Amenities.</Text>
-		</Row>
+		</Row> (?LIST OF LUXURY RESOURCES?)
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_2_CHAPTER_CONTENT_PARA_4">
 			<Text>Strategic resources are not always visible at the start of the game—they may require knowledge of a particular technology before they appear on a map. Strategic resources allow you to build certain units. When you construct an improvement on a Strategic resource hex, it allows you to build units that require that resource (i.e. Musketmen require Niter) in any of your cities that has an appropriate district—Encampment for land units, Harbor for naval units, or Aerodrome for air units. If you build an improvement on 2 copies of that resource, you can build or purchase those units in any city, whether it has the appropriate district or not.</Text>
-		</Row>
+		</Row> (?LIST OF STRATEGIC RES?)
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_3_CHAPTER_CONTENT_TITLE">
 			<Text>Natural Wonders</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_3_CHAPTER_CONTENT_PARA_1">
 			<Text>Natural wonders are the great and glorious creations of nature that awe and inspire us all. These include Crater Lake and the Great Barrier Reef – all places that truly display the grand beauty of the natural world. All natural wonders provide unique benefits to your civilization, and some even have additional special effects (for instance, healing adjacent to the Dead Sea will make a unit’s health refill completely.)</Text>
-		</Row>
+		</Row> (?LIST OF NATURAL WONDERS?)
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_WORLD_4_CHAPTER_CONTENT_TITLE">
 			<Text>Rivers</Text>
 		</Row>
