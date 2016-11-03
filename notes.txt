@@ -46,4 +46,33 @@ http://civilization.wikia.com/wiki/Apostle_(Civ6)
 
 
 
-[NEWLINE][NEWLINE] <---- CREATES A NEWLINE????
+[NEWLINE] creates a new line, like so:
+
+	This is a line. [NEWLINE]This is a line.
+
+becomes
+
+	This is a line.
+	This is a line.
+
+[NEWLINE][NEWLINE] creates a new line after a new line - it is the same as adding a Row / Paragraph.
+
+	This is a line. [NEWLINE][NEWLINE]This is a line.
+
+becomes
+
+	This is a line.
+
+	This is a line.
+
+It is generally easier on the eyes to do two newlines. It also appears to be the standard - so stick to it!
+
+How to add articles to Civilopedia
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_TITLE">
+		<Text>Types</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_1">
+			<Text>There are 2 categories of atomic weapons: the Nuclear Device and the Thermonuclear Device.  They can be built as a city Project in any city and both require the Uranium resource to produce. There is no limit on the number that a player can build. [NEWLINE][NEWLINE]Once a Nuclear or Thermonuclear Device is created, it is added to the player's inventory and can then be used by any unit or improvement capable of deploying it on the map. This includes bomber aircraft, Nuclear Submarines, and the Missile Silo.</Text>
+		</Row>
+
+If suddenly part of your civilopedia becomes German, you did something wrong to the .xml file at that point - for example forgetting a </Row> tag, or in some other way not complying with .xml syntax. The game sees the error, and falls back on the German translation of the game at that point.
