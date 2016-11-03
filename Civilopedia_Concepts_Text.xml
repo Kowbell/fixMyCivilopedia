@@ -548,8 +548,10 @@
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_PARA_2">
 			<Text> There are several ways you can earn Great Phrophet [ICON_GreatProphet] Points.	1. Building a Holy Site, Shrine, and Temple, all of which produce 1 Great Prophet Points per turn. 2. Building the wonder Stonehedge, which produces a Great Prophet immediately after completeion. 3. Using the "Revelation" policy card, that gives you 2 Great Prophet Points per Turn.</Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_4_CHAPTER_CONTENT_PARA_3">
 			<Text> On Standard speed and In the Ancient era Great Prophets are earned at 60 Great People points total. And then increases to 120 in the Medieval Era. If Saladin of Arabia Civ is in your game, watch out! They will get the last Phrophet in the game (even if you kill them off!).  </Text>
+		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_FAITH_5_CHAPTER_CONTENT_TITLE">
 			<Text>Founding Your Religion</Text>
 		</Row>
@@ -953,28 +955,31 @@
 			<Text>Nukes</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_TITLE">
-			<Text>Types</Text>
+			<Text>Introduction to Nuclear Weapons</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_1">
-			<Text>There are 2 categories of atomic weapons: the Nuclear Device and the Thermonuclear Device.  They can be built as a city Project in any city and both require the Uranium resource to produce. There is no limit on the number that a player can build. [NEWLINE][NEWLINE]Once a Nuclear or Thermonuclear Device is created, it is added to the player's inventory and can then be used by any unit or improvement capable of deploying it on the map. This includes bomber aircraft, Nuclear Submarines, and the Missile Silo.</Text>
+			<Text>Nuclear weapons are long-range, one-use weapons that unleash catastrophic damage.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_2">
-			<Text>Nuclear Devices have a blast radius of 1. When deployed from a Missile Silo, they have a [ICON_Range] Range of 12. They cost 14 [ICON_Gold] Gold per turn to maintain.</Text>
+			<Text>There are 2 categories of nuclear weapons: the Nuclear Device and the Thermonuclear Device. They can be built as a city Project in any city (after their prerequisite project has been completed) and both require the Uranium resource to produce. There is no limit on the number that a player can build. [NEWLINE][NEWLINE]Once a Nuclear or Thermonuclear Device is created, it is added to the player's inventory and can then be used by any unit or improvement capable of deploying it on the map. This includes any bomber aircraft, Nuclear Submarines, and the Missile Silo.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_3">
-			<Text>Thermonuclear Devices have a blast radius of 2. When deployed from a Missile Silo, they have a [ICON_Range] Range of 15. They cost 16 [ICON_Gold] Gold per turn to maintain.</Text>
+			<Text>Nuclear Devices have a blast radius of 1. When deployed from a Missile Silo, they have a [ICON_Range] Range of 12. They cost 14 [ICON_Gold] Gold per turn to maintain. In order to produce Nuclear Devices, you must complete the Manhattan Project in any city.</Text>
+		</Row>
+		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_1_CHAPTER_CONTENT_PARA_4">
+			<Text>Thermonuclear Devices have a blast radius of 2. When deployed from a Missile Silo, they have a [ICON_Range] Range of 15. They cost 16 [ICON_Gold] Gold per turn to maintain. In order to produce Thermonuclear Devices, you must complete the Operation Ivy project in any city.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_2_CHAPTER_CONTENT_TITLE">
-			<Text>Destruction</Text>
+			<Text>Nuclear Destruction</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_2_CHAPTER_CONTENT_PARA_1">
-			<Text>When an atomic weapon is detonated, several things happen to all the hexes within the blast radius. [ICON_Citizen] Citizens "working" the affected tiles are eliminated, units occupying the affected tiles are destroyed, and all tile improvements are pillaged. Any districts and buildings in the affected tiles are also pillaged and must be repaired to be used again. All tiles affected are contaminated with radioactive fallout.</Text>
+			<Text>When a nuclear weapon is detonated, several things happen to all the hexes within the blast radius. [ICON_Citizen] Citizens "working" the affected tiles are eliminated, units occupying the affected tiles are destroyed, and all tile improvements are pillaged. Any districts and buildings in the affected tiles are also pillaged and must be repaired to be used again. All tiles affected are contaminated with radioactive fallout.</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_TITLE">
-			<Text>Contamination</Text>
+			<Text>Nuclear Fallout</Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_PARA_1">
-			<Text>After a nuclear attack, fallout will contaminate every tile affect  by the blast. Any units that end their turn in a contaminated tile take 50 damage each turn. [ICON_Production] Production cannot be applied to anything in tiles containing contamination, such as repairing buildings and districts. Tiles that are contaminated cannot be worked by the city until the contamination timer expires or until the tile is "cleaned." </Text>
+			<Text>After a nuclear attack, fallout will contaminate every tile affected by the blast. Any units that end their turn in a contaminated tile take 50 damage each turn. [ICON_Production] Production cannot be applied to anything in tiles containing contamination, such as repairing buildings and districts. Tiles that are contaminated cannot be worked by the city until the contamination timer expires or until the tile is "cleaned." </Text>
 		</Row>
 		<Row Tag="LOC_PEDIA_CONCEPTS_PAGE_NUKES_3_CHAPTER_CONTENT_PARA_2">
 			<Text>Nuclear contamination can be "cleaned" from affected tiles by Builder and Military Engineer units. Cleaning a contaminated tile takes 1 build charge. Builder and Military Engineer units that are able to clean contaminated hexes will take less damage if they end their turn in such a hex. Any city tiles not directly affected by the nuclear blast will still function normally and contribute to the city’s yield.</Text>
